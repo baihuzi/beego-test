@@ -21,8 +21,3 @@ func GetAllUser() (user []*User, err error) {
 
 	return user, err
 }
-
-
-func AddUser(){user []*User,err error} {
-	o := orm.NewOrm()
-}
